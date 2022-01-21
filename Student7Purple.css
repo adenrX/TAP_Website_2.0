@@ -1,0 +1,99 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*This is what gives the page the Purple theme + no scroll bar on the X-axis*/
+body {
+    overflow-x: hidden;
+    background-image: url('AjPurple.png');
+}
+/*The name under the Image*/
+h1 {
+    margin-left: 575px;
+    margin-right: 575px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: mediumpurple;
+    box-shadow: rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    color: rebeccapurple;
+    text-align: center;
+    border: 10px solid mediumpurple;
+    background-color: mediumpurple;
+    margin-right: 450px;
+    margin-left: 450px;
+    font-family: 'Inconsolata', monospace;
+}
+
+#greenFade {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 20px green inset;
+}
+/*This is the big student image in the middle of the page*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    box-shadow: 5px 10px 20px purple;
+}
+
+/*This is the TAP Logo in the Top Left corner*/
+#TAPlogo {
+    margin-left: 2px;
+    width: 125px;
+    height: 75px;
+}
+
+/*This is for the picture on the Left*/
+#Side-Picture-1 {
+    margin-left: 50px;
+    width: 190px;
+    height: 190px;
+    position: relative;
+}
+
+/*This is for the links to the student medias*/
+#Side-Picture-2 {
+    margin-right: -100px;
+    margin-left: 495px;
+    margin-top: -150px;
+    width: 200px;
+    height: 190px;
+}
+
+/*Nav bar stuff*/
+.navbar {
+    background-color: mediumpurple;
+    overflow: hidden;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+    /* Style the links inside the navigation bar */
+    .navbar a {
+        float: left;
+        display: block;
+        color: rebeccapurple;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+        /* Change the color of links on hover */
+        .navbar a:hover {
+            background-color: mediumpurple;
+            color: #8153e0;
+        }
+
+        /* Add a color to the active/current link */
+        .navbar a.active {
+            background-color: mediumpurple;
+            color: rebeccapurple;
+        }
+

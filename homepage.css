@@ -1,0 +1,174 @@
+/*This is what gives the page the Black and Grey theme + no scroll bar on the X-axis*/
+body {
+    margin-left: 0;
+    margin-right: 0;
+    overflow-x: hidden;
+    background-image: url('HomePageBackground.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.websiteTitle {
+    margin-top: -88px;
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: green;
+    background-color: rgb(70, 70, 70);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.TAPinfoHeader {
+    color: white;
+    text-align: center;
+    margin-top: 600px;
+    margin-left: 35%;
+    font-family: 'sans-serif', arial;
+    max-width: 600px;
+    font-size: 40px;
+}
+
+.TAPinfo {
+    color: white;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 25%;
+    font-family: 'sans-serif', arial;
+    max-width: 1000px;
+    font-size: 28px;
+}
+
+.TAPinfoHeader1 {
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 35%;
+    font-family: 'sans-serif', arial;
+    max-width: 600px;
+    font-size: 40px;
+}
+
+.TAPinfo1 {
+    color: white;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 25%;
+    font-family: 'sans-serif', arial;
+    max-width: 1000px;
+    font-size: 28px;
+}
+
+
+/*This is the TAP Logo in the Top Left corner*/
+#TAPlogo {
+    margin-left: 2px;
+    width:125px;
+    height:75px;
+}
+
+
+/*This is for the pulsating boxshadow*/
+.pulsate {
+    -webkit-animation: pulsate 3s ease-out;
+    animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 0 green; }
+    50% {
+        box-shadow: 0 0 60px green; }
+    100% {
+        box-shadow: 0 0 0 green; }
+}
+
+
+/*This is for the nav bar*/
+.customNav {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -36px;
+    -webkit-animation: pulsate 3s ease-out;
+    animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-color: green;
+    max-width: 100%;
+    padding: 0%;
+}
+
+@media screen {
+    .customNav {
+        align-content: center;
+        column-count: 4;
+        column-rule: 2px solid black;
+    }
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0%;
+}
+
+@keyframes customNav {
+    0% {
+        box-shadow: 0 0 0 green; }
+    50% {
+        box-shadow: 0 0 40px green; }
+    100% {
+        box-shadow: 0 0 0 green; }
+}
+  
+/* The dropdown container */
+.dropdown {
+    overflow: hidden;
+}
+  
+/* Dropdown button */
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+    font-size: 20px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: green;
+    min-width: 24.2%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: grey;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

@@ -1,0 +1,68 @@
+﻿/*Custom Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*This is what gives the page the Black and Grey theme + no scroll bar on the X-axis*/
+body {
+    overflow-x: hidden;
+    background-image: url('FinalBackground.png');
+}
+
+/*This is the TAP Logo in the Top Left corner*/
+#TAPlogo {
+    margin-left: 2px;
+    width: 125px;
+    height: 75px;
+}
+
+/*The name under the Image*/
+h1 {
+    margin-left: 575px;
+    margin-right: 575px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: green;
+    box-shadow: rgba(0, 0, 0, 0.7);
+}
+
+/*The Pictures*/
+#everyotherPicture {
+    display: block;
+    width: 5%;
+    height: 2%;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 10px solid green;
+}
+
+/* Table Styles*/
+
+h1#headercalendar {
+    position: relative;
+    top: 100px;
+    margin-left: 340px;
+    margin-right: 340px;
+    display: block;
+}
+
+.calendar {
+    position: relative;
+    top: 100px;
+    margin-left: 340px;
+    margin-right: 340px;
+}
+
+table tr, th, td {
+    border: solid green 2px;
+    background-color: green;
+    margin-right: 160%;
+    margin-left: 160px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+th {
+    background-color: green;
+    width: 50px;
+}
